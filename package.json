@@ -1,0 +1,17 @@
+{
+  "name": "placementinfopage",
+  "version": "1.0.0",
+  "description": "This page will contain placement overview of students",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Debasish Das",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
