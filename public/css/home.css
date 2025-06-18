@@ -6,22 +6,21 @@ body {
 h1 {
   margin: 0;
   text-align: center;
-  color: rgb(247, 238, 121);
+  color: rgb(227, 243, 80);
   padding: 2vw;
-  background: linear-gradient(to top, rgb(44, 44, 243), rgb(255, 73, 73));
+  background: linear-gradient(to top, rgb(88, 88, 255), rgb(252, 26, 26));
 }
 
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  column-gap: 3vw;
-  row-gap: 3vw;
-  margin: 2vw 20px;
+  column-gap: 2vw;
+  row-gap: 2vw;
+  margin: 2vw;
 }
 .card {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -29,7 +28,7 @@ h1 {
 }
 
 .card:hover {
-  transform: scale(1.04); /* Grows to 105% on hover */
+  transform: scale(1.06); /* Grows to 105% on hover */
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Slightly more shadow */
 }
 

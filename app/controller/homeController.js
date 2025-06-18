@@ -1,7 +1,9 @@
 const users = require("../../public/js/user");
 
-const homePageController = (req, res) => {
-  res.render("home", { users });
-};
+class HomeController {
+  async homePageController(req, res) {
+    res.render("home", { users });
+  }
+}
 
-module.exports = homePageController;
+module.exports = new HomeController();
