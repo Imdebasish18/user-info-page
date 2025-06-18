@@ -3,12 +3,20 @@ body {
   margin: 0;
 }
 
+h1 {
+  margin: 0;
+  text-align: center;
+  color: rgb(247, 238, 121);
+  padding: 2vw;
+  background: linear-gradient(to top, rgb(44, 44, 243), rgb(255, 73, 73));
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 3vw;
   row-gap: 3vw;
-  margin: 20px;
+  margin: 2vw 20px;
 }
 .card {
   text-align: center;
