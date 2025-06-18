@@ -1,3 +1,8 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -8,10 +13,11 @@
 .card {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  background: white;
+
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to bottom, pink, rgb(221, 74, 250));
 }
 
 .card:hover {
